@@ -24,6 +24,7 @@ passlib==1.7.4
 psycopg2-binary==2.9.9
 pyasn1==0.6.0
 pydantic==2.7.4
+pydantic-settings==2.3.3
 pydantic_core==2.18.4
 Pygments==2.18.0
 python-dotenv==1.0.1
