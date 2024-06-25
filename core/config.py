@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     DB_HOST: str = os.getenv('DB_HOST')
     DB_PORT: str = os.getenv('DB_PORT')
     DATABASE_URL: str = (
-            f"postgresql+asyncpg://"
+            f"postgresql://"
             f"{DB_USER}:%s"
             f"@{DB_HOST}:{DB_PORT}/"
             f"{DB_NAME}" % quote_plus(DB_PASSWORD))
